@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 
 <html><head>
 
-<title> AST-IT BOT - API</title>
+<title> AST-IT API</title>
 
 <meta charset="UTF-8"> 
 
@@ -14,7 +15,7 @@
 
 <meta name="googlebot" content="index,follow">
 
-<meta property="og:title" content="AST-IT BOT"/>  
+<meta property="og:title" content="Api-ASTBOT"/>  
 
 <meta name="description" content="Sedang Berusaha Untuk Memperbaiki Diri"> 
 
@@ -336,7 +337,7 @@ font-family: 'New Rocker',cursive;
 
 <b>
 
-  <span class="one">REST API</span><span class="two">AST-IT BOT</span>
+  <span class="one">REST API</span><span class="two"> AST-IT BOT</span>
 
   </b
 
@@ -345,3 +346,68 @@ font-family: 'New Rocker',cursive;
 </div>
 
 </div>
+
+<br>
+
+<a id="one" href="/api">DOCUMENTATION</a>
+
+<script type="text/javascript">
+
+Sayings = "";
+
+			var now = new Date();			var hours = now.getHours();
+
+			if (hours >= 16 && hours <= 17){
+
+			Sayings += "<span class='text-success'>Sholat Maghrib Bro</span>"
+
+			} else if (hours >= 18 || hours <= 2){
+
+			Sayings += "<span class='text-success'>Selamat Malam</span>"
+
+			} else if (hours >= 3 && hours <= 10){
+
+			Sayings += "<span class='text-success'>Selamat Pagi</span>"
+
+			} else if (hours >= 11 && hours <= 14){
+
+			Sayings += "<span class='text-success'>Selamat Siang</span>"
+
+			} else if (hours >= 13 && hours <= 15){
+
+			Sayings += "<span class='text-success'>Selamat Sore</span>"
+
+			}
+
+document.getElementById("sayings").innerHTML = Sayings 
+window.setTimeout("waktu()", 1000);
+
+ 
+
+	function waktu() {
+
+		var waktu = new Date();
+
+		setTimeout("waktu()", 1000);
+
+		document.getElementById("jam").innerHTML = waktu.getHours();
+
+		document.getElementById("menit").innerHTML = waktu.getMinutes();
+
+		document.getElementById("detik").innerHTML = waktu.getSeconds();
+
+	}
+
+    </script>
+
+    <!--<audio autoplay="true" src="https://j.top4top.io/m_1772xeikf9.mp3"></audio>-->
+
+    <b><h2 id="one"><marquee width="70%">Jika suka dengan api ini tolong bantu subscribe youtube ASEP-IT GANZ Terima Kasih 😇</marquee></h2></b>
+
+   </body>
+
+</td>
+
+</table>
+
+</html>
